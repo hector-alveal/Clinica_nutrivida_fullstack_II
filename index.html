@@ -36,32 +36,46 @@
             text-align: center;
         }
     </style>
-
+    
 
     <!-- hay que estilizar -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <!-- Contenedor principal - modelo de cajas :0-->
-    <div class="container">
+    <div class="container"></div>
     <header>
-        <h1> + <span id="logo-tienda">  </span> Pagina patatata, Clinica nutritiva NutriVida</h1>
-        <h6>
-            <a href="index.html">Inicio </a> 
-            <a href="paginas_paginas/servicios.html">Servicios </a>
-            <a href="paginas_paginas/historia.html">Historia </a>
-            <a href="paginas_paginas/sub_paginas/nutricionistas.html">Nutricionistas </a>
-            <a href="paginas_paginas/contacto.html">Contactanos </a>
-            <a href="paginas_paginas/usuario_simulado.html">Usuario </a>
-        </h6>
+        <h1> + <span id="logo-tienda">  </span> Clinica nutritiva NutriVida</h1>
+
+        <!-- MENÚ -->
+        <nav class="nav-menu">
+            <a href="/index.html">
+                <i class="bi bi-house"></i> Inicio
+            </a>
+            <a href="/paginas_paginas/servicios.html">
+                <i class="bi bi-bar-chart"></i> Servicios
+            </a>
+            <a href="/paginas_paginas/historia.html" >
+                <i class="bi bi-envelope"></i> Nuestra Historia
+            </a>
+            <a href="/paginas_paginas/sub_paginas/nutricionistas.html" >
+                <i class="bi bi-envelope"></i> Nutricionistas
+            </a>
+            <a href="/paginas_paginas/contacto.html" >
+                <i class="bi bi-envelope"></i> Contactanos
+            </a>
+            <a href="/paginas_paginas/usuario_simulado.html" >
+                <i class="bi bi-envelope"></i> Usuario
+            </a>
+        </nav>  
 
     </header>
 
     <!-- seccion 1: historia -->
     <section>
         <h2> Nuestra pequeña historia</h2>
-        <p><strong> NutriVida</strong> nacio en <strong>Tal año</strong>
-        en santiago, Chile. Fue fundada por <strong>Personaje 1</strong> y
+        <p><strong> NutriVida</strong> tiene como proposito <strong>Nutrir</strong>
+        a aquellos que quieran ser nutridos con nuestros <strong>Profecionales</strong> de la salud y nutrición. <br>
         <strong> Prsonaje 2</strong>, dos nutricionistas comprometidos.</p>
 
         <!-- estilos en linea (ppt 14) -->
@@ -72,16 +86,6 @@
         hace que la imagen sea responsiva (max-widt=100%, height:auto)
 
         =============== COMENTARIO LARGO POR LA CRESTA ================-->
-        <a href="catalogato/detalle_scuba.html"><img class="image_gatinolis" src="https://cdn.stickers.gg/stickers/9017-scuba.gif" alt="El gato scuba" class="img-fluid"></a>
-        
-        <img class="image_gatinolis" src="https://media.tenor.com/wDQQGWdtkPUAAAAM/gato-wtf.gif" alt="gato atonito" class="img-fluid">
-        
-        <img class="image_gatinolis" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT3HhpilkLE1B-7LnWN-FDORrAZT6hsgrONybhDRESdA&s=10" alt="gato malvado" class="img-fluid">
-        <img class="image_gatinolis" src="https://media.tenor.com/RN7QuRQ5sX0AAAAM/super-idol-car.gif" alt="gato loco" class="img-fluid">
-        <a href="catalogato/detalle_gato_zi.html"><img class="image_gatinolis" src="https://i.makeagif.com/media/4-04-2024/5w2vXy.gif" alt="uiiaiu"></a class="img-fluid">
-        <br>
-        <a href="catalogato/honorifico.html">Mencion honorifica</a>
-            <!--  https://i.pinimg.com/originals/80/89/67/80896736380a6349a49ee228a74dc632.gif  -->
     </section>
 
     <section>
@@ -97,21 +101,38 @@
         - mb-3: margen inferior  
 
         =============== COMENTARIO LARGO POR LA CRESTA ================-->
-
-        <ol class="list-group list-group-numered mb-3">
-            <li class="list-group-item"><p><strong>Consulta</strong> <br> Teleconsulta nutricional</p>
-                <img class="image_gatinolis" src="https://media.tenor.com/j5VX5kX4lFkAAAAM/cat-opens-moith-wide.gif" alt="gato pelon" class="img-fluid"> <br>
-                <a href="paginas_paginas/sub_paginas/1_consultas/4teleconsulta_nutricional.html">Descripcion</a></li>
-
-            <li class="list-group-item"><p><strong>Plan espesifico</strong> <br> Plan nutrición deportiva (1 mes)</p>
-                <img class="image_gatinolis" src="https://media.tenor.com/EFDwfjT2GuQAAAAM/spinning-cat.gif" alt="uiiaiu" class="img-fluid"><br>
-                <a href="paginas_paginas/sub_paginas/2_plan_espesificos/3plan_deportiva.html"></a>Descripcion</li>
-
-            <li class="list-group-item"> <p><strong>Taller grupal</strong>Taller de alimentación saludable</p>
-                <img class="image_gatinolis" src="https://i.redd.it/she-reminds-me-of-this-famous-cat-gif-so-i-built-the-map-v0-58radj9pxfc81.gif?width=512&auto=webp&s=76dc7ed4231cb449f0982dcc8fd8df78f569496d" alt="Gato impactado" class="img-fluid"> <br>
-                <a href="paginas_paginas/sub_paginas/4_taller_grupal/1alimen_saludable.html">Descripcion</a></li>    
-        </ol>
-        
+        <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item"><p><strong>Consulta</strong> <br> Teleconsulta nutricional</p>
+                            <img class="image_gatinolis" src="https://media.tenor.com/j5VX5kX4lFkAAAAM/cat-opens-moith-wide.gif" alt="gato pelon" class="img-fluid"> <br>
+                            <a href="paginas_paginas/sub_paginas/1_consultas/4teleconsulta_nutricional.html">Descripcion</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item"><p><strong>Plan espesifico</strong> <br> Plan nutrición deportiva (1 mes)</p>
+                        <img class="image_gatinolis" src="https://media.tenor.com/EFDwfjT2GuQAAAAM/spinning-cat.gif" alt="uiiaiu" class="img-fluid"><br>
+                        <a href="paginas_paginas/sub_paginas/2_plan_espesificos/3plan_deportiva.html">Descripcion</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item"> <p><strong>Taller grupal</strong> <br> Taller de alimentación saludable</p>
+                            <img class="image_gatinolis" src="https://i.redd.it/she-reminds-me-of-this-famous-cat-gif-so-i-built-the-map-v0-58radj9pxfc81.gif?width=512&auto=webp&s=76dc7ed4231cb449f0982dcc8fd8df78f569496d" alt="Gato impactado" class="img-fluid"> <br>
+                            <a href="paginas_paginas/sub_paginas/4_taller_grupal/1alimen_saludable.html">Descripcion</a></li>    
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item"> <p><strong>Evaluacion</strong> <br> Bioimpedanciometria</p>
+                            <img class="image_gatinolis" src="https://cdn.stickers.gg/stickers/9017-scuba.gif" alt="El gato scuba" class="img-fluid"> <br>
+                            <a href="paginas_paginas/sub_paginas/4_taller_grupal/1alimen_saludable.html">Descripcion</a></li>    
+                    </ul>
+                </div>
+                
+            
+        </div>
     </section>
 
     <section>
