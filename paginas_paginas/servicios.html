@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NutriVida - Servicios</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
@@ -12,42 +12,78 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+    <div class="container">
     <header>
-        <h1>Servicios</h1>
+        <h1>Catálogo de Servicios y Planes Nutricionales</h1>
 
-        <h6>
-            <a href="/index.html">Inicio </a> 
-            <a href="servicios.html">Servicios  </a>
-            <a href="historia.html">Historia </a>
-            <a href="contacto.html">Contacto</a>
-            <a href="usuario_simulado.html">Usuario </a>
-        </h6>
+        <!-- MENÚ -->
+        <nav class="nav-menu">
+            <a href="/index.html">
+                <i class="bi bi-house"></i> Inicio
+            </a>
+            <a href="/paginas_paginas/servicios.html">
+                <i class="bi bi-bar-chart"></i> Servicios
+            </a>
+            <a href="/paginas_paginas/historia.html" >
+                <i class="bi bi-envelope"></i> Nuestra Historia
+            </a>
+            <a href="/paginas_paginas/sub_paginas/nutricionistas.html" >
+                <i class="bi bi-envelope"></i> Nutricionistas
+            </a>
+            <a href="/paginas_paginas/contacto.html" >
+                <i class="bi bi-envelope"></i> Contactanos
+            </a>
+            <a href="/paginas_paginas/usuario_simulado.html" >
+                <i class="bi bi-envelope"></i> Usuario
+            </a>
+        </nav>  
     </header>
 
     <section>
-        <h2>Servicios que ofrecemos</h2>
+        <h2>Servicios que ofrecemos a su disposición</h2>
 
         <div class="row">
             <div class="col-md-6">
                 <h3>Servicios</h3>
                 <ul class="list-group">
-                    <li class="list-group-item"><a href="sub_paginas/consultas.html">Consultas </a> </li>
-                    <li class="list-group-item"><a href="sub_paginas/plan_especifico.html">Plan espesifico  </a></li>
-                    <li class="list-group-item"><a href="sub_paginas/evaluacion.html">Evaluacion </a></li>
-                    <li class="list-group-item"><a href="sub_paginas/taller_grupal.html">Taller grupal</a></li>
-                    <h6 class="destacado">Pa la caga, todo caro.</h6>
+                    <li class=" destacado list-group-item"><a href="sub_paginas/consultas.html">Consultas </a> 
+                        <img class="image_gatinolis" src="data:image/jpeg;base64,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" alt="imagen piola">
+                        <p>Evalua tu estado de salud y recibe recomendaciones personalizadas.</p>
+                    </li>
+                    <br>
+                    <li class="destacado list-group-item"><a href="sub_paginas/planes_espesificos.html">Plan espesifico</a>
+                        <img class="image_gatinolis" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnuhIyMmzwWMZLz4qs2pkCacP5DQufVDMbYkWBGBKhDvdic4eL7aKYKZw&s" alt="plan">
+                        <p>Rutinas espesificas para situaciones programadas para mejorar tu salud.</p>
+                    </li>
                 </ul>
             </div>
             <div class="col-md-6">
-                <h3>Otra opciones</h3>
+                <h3>Servicios</h3>
                 <ul class="list-group">
                     
-                    <li class="list-group-item"><a href="sub_paginas/nutricionistas.html">Nutricionistas </a></li>
+                    <a href="sub_paginas/evaluacion.html"><li class="destacado list-group-item"><strong>Evaluacion</strong>
+                        <img class="image_gatinolis" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpT95oIU-DfNbGZqiw-uk8hjbQn-9lAyJD8X5tt_Wnb4i7yGWuIaxbC8XAGQ&s" alt="evaluacion">
+                        <p>Diagnostico de los profecionales para acegurar que mejorara tu salud.</p></li></a>
+                    
+                    <br>
+                    <li class="destacado list-group-item"><strong>Taller grupal</strong>
+                        <img class="image_gatinolis" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyC8XNqQJeBNuCLaeKorBpgbrYDG2FHnOstxLFCQxpY6JztddnynPwUE&s" alt="grupal">
+                        <p>Mejora tu salud en conjunto a grupo de personas para que no estes solo en el proseso.</p>
+                        <p>(alcolicos anonimos)</p>
+                        <a href="/paginas_paginas/sub_paginas/taller_grupal.html" class="btn btn-primary mt-3">More talleres grupales</a>
+                    </li>
 
                 </ul>
             </div>
         </div>
         
     </section>
+
+    <footer>
+        <p><a href="index.html">&copy</a> © 2026 - Clinica NutriVida - Todos los derechos reservados</p>
+        
+    </footer>
+    
+    </div>
 </body>
 </html>
