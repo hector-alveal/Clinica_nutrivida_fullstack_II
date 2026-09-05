@@ -15,7 +15,12 @@
 <body>
     <div class="container">
     <header>
-        <h1>Nutricionista Rodrigo</h1>
+        <h1>
+            <span id="logo-tienda">
+                <i class="bi bi-heart-pulse"></i>
+                Nutricionista - Rodrigo
+            </span>
+        </h1>
 
         <!-- MENÚ -->
         <nav class="nav-menu">
@@ -47,23 +52,31 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="image_gatinolis" src="https://media.tenor.com/EFDwfjT2GuQAAAAM/spinning-cat.gif" alt="Nut. Rodrigo Sepúlveda A." class="img-fluid">
+                        <img class="image_nutri" src="/img/2nutri.png" alt="Nut. Rodrigo Sepúlveda A." class="img-fluid">
                     </div>
+
                     <div class="col-md-6">
                         <p>
                             Código: NUT002 <br>
-                            Nombre: Nut. Rodrigo Sepúlveda A. <br>
-                            Especialidad principal: Nutrición deportiva y rendimiento <br>
-                            Días de atención: Martes, Jueves, Sábado <br>
-                            Horario: 09:00 – 14:00
+                            <strong><i class="bi bi-clock"></i> - Duración:</strong> 90 min <br>
+
+                            <strong><i class="bi bi-heart-pulse"></i> - Especialidad principal:</strong> Nutrición deportiva y rendimiento <br>
+
+                            <strong><i class="bi bi-calendar-week"></i> - Días de atención:</strong> Martes, Jueves, Sábado. <br>
+
+                            <strong><i class="bi bi-alarm"></i> - Horario:</strong> 09:00 – 14:00.<br>
                         </p>
-                        <br>
-                        <p>Quiere su servicio?</p>
-                        <a href="/paginas_paginas/servicios.html" class="btn btn-primary mt-3">Ir a servicios</a>
+                        <button type="button"
+                            class="btn btn-sm boton-nutrivida"
+                            onclick="alert('La función de agendamiento estará disponible próximamente.')">
+                            Agendar
+                        </button>
                     </div>
+                    
                 </div>
             </div>
-            <a href="/paginas_paginas/sub_paginas/nutricionistas.html" class="btn btn-primary mt-3">Volver</a>
+            <a href="/paginas_paginas/sub_paginas/nutricionistas.html" class="boton-volver mt-3"><h4>
+                <i class="bi bi-arrow-left-short"></i>Volver</h4></a>
         </div>
         
     </section>
