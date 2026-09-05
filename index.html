@@ -5,194 +5,276 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinica NutriVida</title>
 
-    <!--========== COMENTARIO LARGO POR LA RAYOS ==========
-    
-        Booststrap 5- CSS (CDN) servidores de una red de entrega de contenidos
-        se carga antes que sus estilos para que puedas sobreescribir
-
-        ========== COMENTARIO LARGO POR LA CRESTA ===========-->
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" >
-    
-    <!--=============== COMENTARIO LARGO POR LA RAYOS ================
-         
-        Booststrap icons
-        libreria de iconos
-
-        =============== COMENTARIO LARGO POR LA CRESTA ================-->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
-
-
-    <!-- estilos incrustados -->
-    <style>
-        .promotion{
-            background-color: chartreuse;
-            color: #000;
-            padding: 10px;
-            border-radius: 5px;
-            font-weight: bold;
-            text-align: center;
-        }
-    </style>
-    
 
     <!-- hay que estilizar -->
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <!-- Contenedor principal - modelo de cajas :0-->
-    <div class="container">
-    <header>
+<div class="container">
+<header>
         <h1>
             <span id="logo-tienda">
                 <i class="bi bi-heart-pulse"></i>
                 Clínica Nutricional NutriVida
             </span>
         </h1>
-
+        <p>
+            Cuidamos tu alimentación, cuidamos tu bienestar.
+        </p>
         <!-- MENÚ -->
         <nav class="nav-menu">
             <a href="/index.html">
-                <i class="bi-house-door"></i> Inicio
+                <i class="bi bi-house-door"></i>
+                Inicio
             </a>
             <a href="/paginas_paginas/servicios.html">
-                <i class="bi-clipboard2-check"></i> Catalogo / Servicios
+                <i class="bi bi-clipboard2-check"></i>
+                Servicios
             </a>
-            <a href="/paginas_paginas/sub_paginas/nutricionistas.html" >
-                <i class="bi-person-badge"></i> Nutricionistas
+            <a href="/paginas_paginas/sub_paginas/nutricionistas.html">
+                <i class="bi bi-person-badge"></i>
+                Nutricionistas
             </a>
-            <a href="/paginas_paginas/contacto.html" >
-                <i class="bi-telephone"></i> Contactanos
+            <a href="/paginas_paginas/contacto.html">
+                <i class="bi bi-person-check"></i> Consulta
             </a>
-            <a href="/paginas_paginas/historia.html" >
-                <i class="bi-book"></i> Nuestra Historia
+            <a href="/paginas_paginas/historia.html">
+                <i class="bi bi-book"></i>
+                Nuestra Historia
             </a>
-            <a href="/paginas_paginas/usuario_simulado.html" >
-                <i class="bi-person-circle"></i> Usuario
+            <a href="/paginas_paginas/usuario_simulado.html">
+                <i class="bi bi-person-circle"></i>
+                Usuario
             </a>
-        </nav>  
-
+        </nav>
     </header>
 
-    <!-- seccion 1: historia -->
-    <section>
-        <h2> Nuestra pequeña historia</h2>
-        <p><strong> NutriVida</strong> tiene como proposito <strong>Nutrir</strong>
-        a aquellos que quieran ser nutridos con nuestros <strong>Profecionales</strong> de la salud y nutrición. <br>
-        <strong> Prsonaje 2</strong>, dos nutricionistas comprometidos.</p>
+    <main>
+        <section class="hero">
 
-        <!-- estilos en linea (ppt 14) -->
-        <h6 class="destacado">Nuestra clinica promete cambiar tu vida.</h6>
-        <!--=============== COMENTARIO LARGO POR LA RAYOS ================
-         
-        Imagen: se agrega class="img-fluid" de Booststrap
-        hace que la imagen sea responsiva (max-widt=100%, height:auto)
-
-        =============== COMENTARIO LARGO POR LA CRESTA ================-->
-    </section>
-
-    <section>
-        <h2> Algunos <a href="paginas_paginas/servicios.html">servicios</a> que ofrecemos</h2>
-        <p>Entre una a otro servicio.</p>
-
-        <!--=============== COMENTARIO LARGO POR LA RAYOS ================
-         
-        Lista: se agregan clases de Booststrap
-        - list-group: convierte la lista en un componente estilisado
-        - list-group-numered: enumera automanticamente
-        - list-group-item: estilo para cada item
-        - mb-3: margen inferior  
-
-        =============== COMENTARIO LARGO POR LA CRESTA ================-->
-        <div class="row">
-                <div class="col-md-6">
-                    <ul class="list-group">
-                        <li class="list-group-item"><p><strong>Consulta</strong> <br> Teleconsulta nutricional</p>
-                            <img class="image_gatinolis" src="https://media.tenor.com/j5VX5kX4lFkAAAAM/cat-opens-moith-wide.gif" alt="gato pelon" class="img-fluid"> <br>
-                            <a href="paginas_paginas/sub_paginas/1_consultas/4teleconsulta_nutricional.html">Descripcion</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <ul class="list-group">
-                        <li class="list-group-item"><p><strong>Plan espesifico</strong> <br> Plan nutrición deportiva (1 mes)</p>
-                        <img class="image_gatinolis" src="https://media.tenor.com/EFDwfjT2GuQAAAAM/spinning-cat.gif" alt="uiiaiu" class="img-fluid"><br>
-                        <a href="paginas_paginas/sub_paginas/2_plan_espesificos/3plan_deportiva.html">Descripcion</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <ul class="list-group">
-                        <li class="list-group-item"> <p><strong>Taller grupal</strong> <br> Taller de alimentación saludable</p>
-                            <img class="image_gatinolis" src="https://i.redd.it/she-reminds-me-of-this-famous-cat-gif-so-i-built-the-map-v0-58radj9pxfc81.gif?width=512&auto=webp&s=76dc7ed4231cb449f0982dcc8fd8df78f569496d" alt="Gato impactado" class="img-fluid"> <br>
-                            <a href="paginas_paginas/sub_paginas/4_taller_grupal/1alimen_saludable.html">Descripcion</a></li>    
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <ul class="list-group">
-                        <li class="list-group-item"> <p><strong>Evaluacion</strong> <br> Bioimpedanciometria</p>
-                            <img class="image_gatinolis" src="https://cdn.stickers.gg/stickers/9017-scuba.gif" alt="El gato scuba" class="img-fluid"> <br>
-                            <a href="paginas_paginas/sub_paginas/4_taller_grupal/1alimen_saludable.html">Descripcion</a></li>    
-                    </ul>
-                </div>
-                
-            
-        </div>
-    </section>
-
-    <section>
-        
-        <h2>Nuestos <a href="paginas_paginas/sub_paginas/nutricionistas.html">Nutricionistas</a> son profecionales destacados en su area</h2>
-        <p>Destacan por su conocimiento y entrenamiento</p>
-
-        <!--=============== COMENTARIO LARGO POR LA RAYOS ================
-        
-        Sistema GRID de booststrap 
-        row : contenedor de la fila (display:flex)
-        col-md6: cada columna ocupa 6/12 en la pantalla
-
-        =============== COMENTARIO LARGO POR LA CRESTA ================-->
-        <div class="row">
-            <div class="col-md-6">
-                <h3>Habilidades</h3>
-                <ul class="list-group">
-                    <li class="list-group-item"><i class="bi bi-cup-hot"> </i> Alimentos premiun</li>
-                    <li class="list-group-item"><i class="bi bi-balloon"></i> Rutinas premiun</li>
-                    <li class="list-group-item"><i class="bi bi-backpack"></i> Criterio premun</li>
-                </ul>
+            <span class="hero-icono">
+                <i class="bi bi-heart-pulse"></i>
+            </span>
+            <h2>
+                Tu bienestar comienza con una buena alimentación
+            </h2>
+            <p>
+                En <strong>NutriVida</strong> te acompañamos en el camino
+                hacia una alimentación más saludable mediante orientación
+                nutricional profesional y personalizada.
+            </p>
+            <div class="hero-botones">
+                <a href="/paginas_paginas/servicios.html"
+                   class="boton-inicio btn btn-success">
+                    <i class="bi bi-clipboard2-check"></i>
+                    Ver nuestros servicios
+                </a>
+                <a href="/paginas_paginas/contacto.html"
+                   class="btn btn-outline-success">
+                    <i class="bi bi-person-check"></i>
+                    Consulta
+                </a>
             </div>
-            <div class="col-md-6">
-                <h3>competencias</h3>
-                <ul class="list-group">
-                    <li class="list-group-item"><i class="bi bi-scissors"></i> Autocriterio</li>
-                    <li class="list-group-item"><i class="bi bi-heart-pulse"></i> Perseverancia</li>
-                    <li class="list-group-item"><i class="bi bi-truck"></i> Autonomia</li>
-                </ul>
+        </section>
+        <section>
+            <h2>
+                <i class="bi bi-clipboard2-check"></i>
+                Nuestros servicios
+            </h2>
+            <p>
+                Encuentra el apoyo nutricional que necesitas
+                para alcanzar tus objetivos.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="servicio-card">
+                        <div class="icono-servicio">
+                            <i class="bi bi-person-check"></i>
+                        </div>
+                        <h3>
+                            Consultas nutricionales
+                        </h3>
+                        <p>
+                            Atención personalizada para conocer tus
+                            necesidades y ayudarte a construir hábitos
+                            alimentarios saludables.
+                        </p>
+                        <a href="/paginas_paginas/sub_paginas/consultas.html"
+                           class="boton-inicio btn btn-success btn-sm">
+                            Ver servicio
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="servicio-card">
+                        <div class="icono-servicio">
+                            <i class="bi bi-clipboard2-check"></i>
+                        </div>
+                        <h3>
+                            Planes especializados
+                        </h3>
+                        <p>
+                            Planes diseñados de acuerdo con tus objetivos,
+                            necesidades y estilo de vida.
+                        </p>
+                        <a href="/paginas_paginas/sub_paginas/planes_espesificos.html"
+                           class="boton-inicio btn btn-success btn-sm">
+                            Ver servicio
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="servicio-card">
+                        <div class="icono-servicio">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h3>
+                            Talleres grupales
+                        </h3>
+                        <p>
+                            Aprende sobre alimentación saludable y adquiere
+                            herramientas prácticas para mejorar tus hábitos.
+                        </p>
+                        <a href="/paginas_paginas/sub_paginas/taller_grupal.html"
+                           class="boton-inicio btn btn-success btn-sm">
+                            Ver servicio
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="servicio-card">
+                        <div class="icono-servicio">
+                            <i class="bi bi-clipboard-data"></i>
+                        </div>
+                        <h3>
+                            Evaluaciones 
+                        </h3>
+                        <p>
+                            Evaluaciones para conocer mejor tu estado
+                            nutricional y realizar un seguimiento de tus avances.
+                        </p>
+                        <a href="/paginas_paginas/sub_paginas/evaluacion.html"
+                           class="boton-inicio btn btn-success btn-sm">
+                            Ver servicio
+                        </a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+        <section>
+            <h2>
+                <i class="bi bi-heart-pulse"></i>
+                ¿Por qué elegir NutriVida?
+            </h2>
+            <p class="descripcion-seccion">
 
-        <!-- Se mantiene class"promotion" (estilo incrustado)-->
-        <!-- agregar my-3: margen vertical (booststrap)-->
-        <!-- agregar un icono de booststrap -->
-
-
-        <img class="imageloca" src="data:image/jpeg;base64,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" alt="Productos sevicios" class="img-fluid">
-        <img class="imageloca" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStZFh5oAQduytrxRf7S1lNxqWgCFezTs1ntktl_Tv72cll25z-yQIfWEE&s" alt="Productos sevicios" class="img-fluid">
-    </section>
-
-    <section>
-        <h2>🔗 Enlaces de interes</h2>
-        <ul class="list-group">
-            <li class="list-group-item"><a href="https://getbootstrap.com/"><i class="bi bi-box-arrow-up-right"></i> Un poco de Bootstrap</a></li>
-            <li class="list-group-item"><a href="https://www.duoc.cl/"><i class="bi bi-box-arrow-up-right"></i> Duoc uc para complementar</a></li>
-            <li class="list-group-item"><a href="https://spring.io/projects/spring-boot"><i class="bi bi-box-arrow-up-right"></i> Spring boot para rellenar</a></li>
-        </ul>
-    </section>
-    <!--Pie de pagina-->
+                Queremos que tu proceso nutricional sea cercano,
+                comprensible y adaptado a ti.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div>
+                        <div class="icono-servicio">
+                            <i class="bi bi-person-check"></i>
+                        </div>
+                        
+                        <h3>
+                            Atención personalizada
+                        </h3>
+                        <p>
+                            Adaptamos nuestras recomendaciones
+                            a tus necesidades y objetivos.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <div class="icono-servicio">
+                            <i class="bi bi-award"></i>
+                        </div>
+                        
+                        <h3>
+                            Profesionales especializados
+                        </h3>
+                        <p>
+                            Contamos con profesionales preparados
+                            para acompañarte durante tu proceso.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div >
+                        <div class="icono-servicio">
+                            <i class="bi bi-graph-up-arrow"></i>
+                        </div>
+                        
+                        <h3>
+                            Seguimiento
+                        </h3>
+                        <p>
+                            Evaluamos tus avances para ayudarte
+                            a mantener tus objetivos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>
+                    <i class="bi bi-book"></i>
+                    Nuestra historia
+                </h2>
+                <p>
+                    <strong>NutriVida</strong> nació con el propósito
+                    de ayudar a las personas a mejorar su relación
+                    con la alimentación y cuidar su salud.
+                </p>
+                <p>
+                    Nuestro equipo busca entregar un acompañamiento
+                    cercano, profesional y adaptado a las necesidades
+                    de cada paciente.
+                </p>
+                <a href="/paginas_paginas/historia.html"
+                   class="boton-inicio btn btn-outline-success btn-sm">
+                    Conoce nuestra historia
+                </a>
+            </div>
+        </section>
+        <section class="contacto-final">
+            <i class="bi bi-calendar-check"></i>
+            <h2>
+                ¿Quieres comenzar a cuidar tu alimentación?
+            </h2>
+            <p>
+                Da el primer paso hacia una alimentación más saludable.
+                Conoce nuestros servicios y encuentra la alternativa
+                adecuada para ti.
+            </p>
+            <a href="/paginas_paginas/contacto.html"
+               class="boton-inicio btn btn-success">
+                <i class="bi bi-person-check"></i>
+                Consulta
+            </a>
+        </section>
+    </main>
     <footer>
-        <p><a href="index.html">&copy</a> © 2026 - Clinica NutriVida - Todos los derechos reservados</p>
-        
+        <p>
+            <a href="/index.html">
+                &copy
+            </a>
+            © 2026 - Clínica NutriVida -
+            Todos los derechos reservados
+        </p>
     </footer>
-    </div>
+</div>
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+

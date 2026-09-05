@@ -71,14 +71,10 @@ header p {
 
 .nav-menu a:hover {
     background: rgba(255, 255, 255, 0.1);
-    color: #FFD700;
+    color: #78c978;
 }
 
-.nav-menu a.active {
-    background: rgba(255, 255, 255, 0.15);
-    color: #FFD700;
-    font-weight: 600;
-}
+
 
 .nav-menu a i {
     font-size: 1.1rem;
@@ -94,12 +90,18 @@ section {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
 }
 
+.grande{
+    font-size: 1.5rem;
+}
+
 section h2 {
     color: #2E7D32;
     font-size: 1.6rem;
     border-bottom: 2px solid #4CAF50;
     padding-bottom: 8px;
 }
+
+
 
 section h3 {
     color: #388E3C;
@@ -115,7 +117,7 @@ section h4{
 
 /* ----- DESTACADO ----- */
 .destacado {
-    background-color: #87A987;
+    background-color: #87a98750;
     padding: 15px;
     border-radius: 1px;
     text-align: left;
@@ -143,11 +145,18 @@ section h4{
     margin: 10px 0;
     display: block;
 }
-/* boton */
+
+/* botones */
 
 .boton-volver {
     background-color: #1E4620;
     border-radius: 40px;
+    color: white;
+    border: none;
+}
+
+.boton-inicio{
+    background-color: #007a3de7 ;
     color: white;
     border: none;
 }
@@ -161,6 +170,13 @@ section h4{
 
 .boton-si {
     background-color: #6b886b;
+    border-radius: 40px;    
+    color: rgb(0, 0, 0);    
+    border: none;
+}
+
+.boton-inicio:hover {
+    background-color: #78c978;
     border-radius: 40px;
     color: rgb(0, 0, 0);    
     border: none;
@@ -177,7 +193,7 @@ section h4{
 }
 
 .boton-si:hover {
-    background-color: #2475a8;
+    background-color:rgb(68, 112, 56);
     color: white;
 }
 
@@ -215,7 +231,7 @@ a:hover{
 }
 
 
-
+/* css incrustado anteriormente*/
         .contact-info {
             background-color: #f8f9fa;
             padding: 15px;
