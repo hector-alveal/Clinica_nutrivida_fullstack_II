@@ -1,0 +1,268 @@
+/* Contenedor principal */
+
+.login-container {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+
+/* Recuadro de inicio de sesión */
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 35px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.10);
+    text-align: center;
+}
+
+
+/* Icono */
+
+.login-icono {
+    margin-bottom: 15px;
+}
+
+.login-icono i {
+    font-size: 65px;
+    color: #70ad47;
+}
+
+
+/* Título */
+
+.login-card h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+
+/* Descripción */
+
+.login-descripcion {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+
+/* Campos */
+
+.campo-login {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.campo-login label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.campo-login label i {
+    color: #70ad47;
+}
+
+
+/* Inputs */
+
+.campo-login input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.campo-login input:focus {
+    outline: none;
+    border-color: #70ad47;
+    box-shadow: 0 0 0 2px rgba(112, 173, 71, 0.15);
+}
+
+
+/* Mensajes de error */
+
+.campo-login small {
+    display: block;
+    margin-top: 5px;
+    color: #dc3545;
+    font-size: 12px;
+}
+
+
+/* Botón iniciar sesión */
+
+.boton-login {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #70ad47;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.boton-login:hover {
+    background-color: #548a35;
+}
+
+
+/* Botón registrarse */
+
+.boton-registro {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #70ad47;
+    border-radius: 6px;
+    color: #70ad47;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.boton-registro:hover {
+    background-color: #70ad47;
+    color: white;
+}
+
+
+
+
+
+
+.registro-container {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.registro-card {
+    width: 100%;
+    max-width: 450px;
+    padding: 35px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.10);
+    text-align: center;
+}
+
+.registro-icono {
+    margin-bottom: 15px;
+}
+
+.registro-icono i {
+    font-size: 65px;
+    color: #70ad47;
+}
+
+.registro-card h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.registro-descripcion {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.campo-registro {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.campo-registro label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.campo-registro label i {
+    color: #70ad47;
+}
+
+.campo-registro input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.campo-registro input:focus {
+    outline: none;
+    border-color: #70ad47;
+    box-shadow: 0 0 0 2px rgba(112, 173, 71, 0.15);
+}
+
+.campo-registro small {
+    display: block;
+    margin-top: 5px;
+    color: #dc3545;
+    font-size: 12px;
+}
+
+.terminos-registro {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 15px 0 5px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.terminos-registro input {
+    width: auto;
+}
+
+#errorTerminos {
+    display: block;
+    text-align: left;
+    color: #dc3545;
+    font-size: 12px;
+}
+
+.boton-registro {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #70ad47;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.boton-registro:hover {
+    background-color: #548a35;
+}
+
+.volver-login {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.volver-login a {
+    color: #70ad47;
+    text-decoration: none;
+    font-weight: bold;
+}

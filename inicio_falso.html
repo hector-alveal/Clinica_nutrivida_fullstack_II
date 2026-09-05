@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriVida - Inicio sesion</title>
+
+
+    <link rel="stylesheet" href="css/style_temporal.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+    <section class="login-container">
+
+    <div class="login-card">
+
+        <div class="login-icono">
+            <i class="bi bi-person-circle"></i>
+        </div>
+
+        <h2>Iniciar sesión</h2>
+
+        <p class="login-descripcion">
+            Ingresa tus datos para acceder a NutriVida.
+        </p>
+
+        <form id="formularioLogin">
+
+            <div class="campo-login">
+                <label for="correo">
+                    <i class="bi bi-envelope"></i>
+                    Correo electrónico
+                </label>
+
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="Ingresa tu correo">
+
+                <small id="errorCorreo"></small>
+            </div>
+
+            <div class="campo-login">
+                <label for="contrasena">
+                    <i class="bi bi-lock"></i>
+                    Contraseña
+                </label>
+
+                <input
+                    type="password"
+                    id="contrasena"
+                    name="contrasena"
+                    placeholder="Ingresa tu contraseña">
+
+                <small id="errorContrasena"></small>
+            </div>
+
+            <button type="submit" class="boton-login">
+                <i class="bi bi-box-arrow-in-right"></i>
+                Iniciar sesión
+            </button>
+
+            <a href="registro.html" class="boton-registro">
+                <i class="bi bi-person-plus"></i>
+                Registrarse
+            </a>
+
+        </form>
+
+    </div>
+
+</section>
+
+<script src="js/validaciones.js"></script>
+</body>
+</html>

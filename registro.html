@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriVida - Registrarse</title>
+</head>
+
+    <link rel="stylesheet" href="css/style_temporal.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+<body>
+    <section class="registro-container">
+
+    <div class="registro-card">
+
+        <div class="registro-icono">
+            <i class="bi bi-person-plus"></i>
+        </div>
+
+        <h2>Crear una cuenta</h2>
+
+        <p class="registro-descripcion">
+            Regístrate en NutriVida para acceder a nuestros servicios.
+        </p>
+
+        <form id="formularioRegistro">
+
+            <!-- Nombre -->
+            <div class="campo-registro">
+                <label for="nombre">
+                    <i class="bi bi-person"></i>
+                    Nombre
+                </label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Ingresa tu nombre">
+
+                <small id="errorNombre"></small>
+            </div>
+
+            <!-- Apellido -->
+            <div class="campo-registro">
+                <label for="apellido">
+                    <i class="bi bi-person"></i>
+                    Apellido
+                </label>
+
+                <input
+                    type="text"
+                    id="apellido"
+                    name="apellido"
+                    placeholder="Ingresa tu apellido">
+
+                <small id="errorApellido"></small>
+            </div>
+
+            <!-- Correo -->
+            <div class="campo-registro">
+                <label for="correo">
+                    <i class="bi bi-envelope"></i>
+                    Correo electrónico
+                </label>
+
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="ejemplo@correo.com">
+
+                <small id="errorCorreo"></small>
+            </div>
+
+            <!-- Teléfono -->
+            <div class="campo-registro">
+                <label for="telefono">
+                    <i class="bi bi-telephone"></i>
+                    Teléfono
+                </label>
+
+                <input
+                    type="tel"
+                    id="telefono"
+                    name="telefono"
+                    placeholder="+56 9 1234 5678">
+
+                <small id="errorTelefono"></small>
+            </div>
+
+            <!-- Contraseña -->
+            <div class="campo-registro">
+                <label for="contrasena">
+                    <i class="bi bi-lock"></i>
+                    Contraseña
+                </label>
+
+                <input
+                    type="password"
+                    id="contrasena"
+                    name="contrasena"
+                    placeholder="Ingresa una contraseña">
+
+                <small id="errorContrasena"></small>
+            </div>
+
+            <!-- Confirmar contraseña -->
+            <div class="campo-registro">
+                <label for="confirmarContrasena">
+                    <i class="bi bi-lock-fill"></i>
+                    Confirmar contraseña
+                </label>
+
+                <input
+                    type="password"
+                    id="confirmarContrasena"
+                    name="confirmarContrasena"
+                    placeholder="Repite tu contraseña">
+
+                <small id="errorConfirmarContrasena"></small>
+            </div>
+
+            <!-- Términos -->
+            <div class="terminos-registro">
+
+                <input
+                    type="checkbox"
+                    id="terminos"
+                    name="terminos">
+
+                <label for="terminos">
+                    Acepto los términos y condiciones.
+                </label>
+
+            </div>
+
+            <small id="errorTerminos"></small>
+
+            <!-- Botón -->
+            <button type="submit" class="boton-registro">
+                <i class="bi bi-person-plus"></i>
+                Registrarse
+            </button>
+
+            <!-- Volver al login -->
+            <p class="volver-login">
+                ¿Ya tienes una cuenta?
+                <a href="inicio_falso.html">
+                    Iniciar sesión
+                </a>
+            </p>
+
+        </form>
+
+    </div>
+
+</section>
+
+<script src="js/funciones.js"></script>
+</body>
+</html>
