@@ -123,26 +123,26 @@ section h4{
 }
 
 /* ----- IMÁGENES ----- */
-section img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border: 2px solid #4CAF50;
-    border-radius: 8px;
-    margin: 10px 0;
-    display: block;
-}
 
 .image_gatinolis{
-    width: 20%;
-    max-width: 400px;
+    width: 40%;
+    max-height: 200px;
     height: auto;
-    border: 1mm solid rgba(0, 0, 139, 0);
+    border: 1mm solid rgb(56, 90, 62);
     border-radius: 8px;
     margin: 10px 0;
     display: block;
 }
 
+.image_nutri{
+    width: 40%;
+    max-height: 300px;
+    height: auto;
+    border: 1mm solid rgb(56, 90, 62);
+    border-radius: 8px;
+    margin: 10px 0;
+    display: block;
+}
 /* boton */
 
 .boton-volver {
