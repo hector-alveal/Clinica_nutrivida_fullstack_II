@@ -170,3 +170,9 @@ formularioRegistro.addEventListener("submit", function(event) {
     }
 
 });
+
+
+function mostrarMensaje() {
+
+    alert("La función de agendamiento estará disponible próximamente.");
+}

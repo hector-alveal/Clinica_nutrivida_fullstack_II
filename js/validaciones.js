@@ -43,7 +43,6 @@ formularioLogin.addEventListener("submit", function(event) {
     }
 
     // Si todo está correcto
-    // Si todo está correcto
 if (formularioValido) {
 
     alert("Inicio de sesión correcto.");
@@ -55,3 +54,22 @@ if (formularioValido) {
         // window.location.href = "inicio.html";
     }
 });
+
+
+// agregar consulta temporal
+
+function agregarConsulta() {
+
+    const mensaje = document.getElementById("mensajeConsulta");
+
+    mensaje.textContent = "Consulta agregada correctamente.";
+
+    setTimeout(function() {
+        mensaje.textContent = "";
+    }, 3000);
+}
+
+function mostrarMensaje() {
+
+    alert("La función de agendamiento estará disponible próximamente.");
+}
