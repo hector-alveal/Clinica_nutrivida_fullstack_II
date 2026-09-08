@@ -13,12 +13,13 @@ body {
 
 .container {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 20px auto;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
 }
 
 /* ----- ENCABEZADO ----- */
@@ -74,11 +75,83 @@ header p {
     color: #78c978;
 }
 
-
-
 .nav-menu a i {
     font-size: 1.1rem;
 }
+
+/*  modificacion login  */
+
+.login-container {
+    min-height: 70vh;
+    background-color: #faf0e6a9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 35px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.10);
+    text-align: center;
+}
+
+.login-card h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.login-descripcion {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+
+.campo-login {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.campo-login label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.campo-login label i {
+    color: #70ad47;
+}
+
+.campo-login input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.campo-login input:focus {
+    outline: none;
+    border-color: #70ad47;
+    box-shadow: 0 0 0 2px rgba(112, 173, 71, 0.15);
+}
+/* Mensajes de error */
+
+.campo-login small {
+    display: block;
+    margin-top: 5px;
+    color: #dc3545;
+    font-size: 12px;
+}
+
 
 /* ----- SECCIONES ----- */
 section {
@@ -155,6 +228,14 @@ section h4{
     border: none;
 }
 
+.boton-traparente {
+    border-radius: 40px;
+    color: #1E4620;
+    border-color: #1E4620;
+}
+
+
+
 .boton-inicio{
     background-color: #007a3de7 ;
     color: white;
@@ -198,6 +279,46 @@ section h4{
     color: white;
 }
 
+/*pal login*/
+
+.boton-login {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #70ad47;
+    border-radius: 20px;
+    color: #1E4620;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.boton-login:hover {
+    background-color: rgb(68, 112, 56);
+    color: white;
+}
+
+.boton-registro {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #70ad47;
+    border-radius: 29px;
+    color: #1E4620;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.boton-registro:hover {
+    background-color: rgb(68, 112, 56);
+    color: white;
+}
+
+
+
 /* ----- PIE DE PÁGINA ----- */
 footer {
     background-color: #333;
@@ -207,6 +328,8 @@ footer {
     border-radius: 0 0 8px 8px;
     margin-top: 20px;
 }
+
+/* iconos  */
 
 .icono-servicio {
     margin-bottom: 15px;

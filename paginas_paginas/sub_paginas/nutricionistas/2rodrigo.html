@@ -33,7 +33,7 @@
             <a href="/paginas_paginas/sub_paginas/nutricionistas.html" >
                 <i class="bi-person-badge"></i> Nutricionistas
             </a>
-            <a href="Agendar" >
+            <a href="#" onclick="mostrarMensaje()">
                 <i class="bi bi-person-check"></i> Agendar
             </a>
             <a href="/paginas_paginas/historia.html" >
@@ -66,11 +66,9 @@
 
                             <strong><i class="bi bi-alarm"></i> - Horario:</strong> 09:00 – 14:00.<br>
                         </p>
-                        <button type="button"
-                            class="btn btn-sm boton-nutrivida"
-                            onclick="alert('La función de agendamiento estará disponible próximamente.')">
-                            Agendar
-                        </button>
+                        <a href="#" onclick="mostrarMensaje()" class="btn btn-sm boton-nutrivida">
+                            <i class="bi bi-person-check"></i> Agendar
+                        </a>
                     </div>
                     
                 </div>
@@ -86,5 +84,6 @@
     </footer>
 
     </div>
+<script src="/js/funciones.js"></script>
 </body>
 </html>
