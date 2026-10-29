@@ -1,4 +1,4 @@
-package main.java.com.example.demo.model;
+package com.example.demo.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -13,6 +13,7 @@ public class Producto {
     private Long id;
     private String nombre;
     private Double precio;
+    
     public Producto() {
     }
     public Long getId() {

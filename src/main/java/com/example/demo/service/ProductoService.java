@@ -1,7 +1,7 @@
-package main.java.com.example.demo.service;
+package com.example.demo.service;
 
-import main.java.com.example.demo.model.Producto;
-import main.java.com.example.demo.repository.ProductoRepository;
+import com.example.demo.model.Producto;
+import com.example.demo.repository.ProductoRepository;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

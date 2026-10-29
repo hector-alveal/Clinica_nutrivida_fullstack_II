@@ -1,8 +1,8 @@
 
-package main.java.com.example.demo.controller;
+package com.example.demo.controller;
 
-import main.java.com.example.demo.model.Producto;
-import main.java.com.example.demo.service.ProductoService;
+import com.example.demo.service.ProductoService;
+import com.example.demo.model.Producto;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
